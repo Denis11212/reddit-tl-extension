@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title id="pageTitle"></title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; min-width: 400px; }
+    label { display: block; margin-bottom: 10px; }
+    select, button { padding: 5px 10px; font-size: 14px; }
+    #status { margin-top: 10px; color: green; }
+  </style>
+</head>
+<body>
+  <h2 id="mainHeading"></h2>
+  <label id="languageLabel">
+    <span id="languageLabelText"></span>
+    <select id="languageSelect">
+      <!-- Языки будут добавлены через JavaScript -->
+    </select>
+  </label>
+  <br>
+  <label id="autoReloadLabel">
+    <input type="checkbox" id="autoReload"> <span id="autoReloadText"></span>
+  </label>
+  <br><br>
+  <button id="saveButton"></button>
+  <div id="status"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>

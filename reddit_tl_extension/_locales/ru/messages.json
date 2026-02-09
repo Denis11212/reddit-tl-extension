@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Выбор языка TL для Reddit",
+    "description": "The name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Добавляет параметр языка (tl) к URL-адресам Reddit.",
+    "description": "The description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Настройки Reddit TL",
+    "description": "Title for the options page."
+  },
+  "languageLabel": {
+    "message": "Выберите язык перевода (параметр tl):",
+    "description": "Label for the language selection dropdown."
+  },
+  "autoReloadLabel": {
+    "message": "Автоматически перезагружать страницу",
+    "description": "Label for the auto-reload checkbox."
+  },
+  "saveButton": {
+    "message": "Сохранить настройки",
+    "description": "Text for the save button."
+  },
+  "statusSaved": {
+    "message": "Настройки сохранены.",
+    "description": "Status message after saving settings."
+  },
+  "confirmAddTl": {
+    "message": "Добавить ?tl=$LANGUAGE$ к URL и перезагрузить страницу?",
+    "description": "Confirmation message before reloading with new tl parameter.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "ru"
+      }
+    }
+  },
+  "confirmErrorDefault": {
+    "message": "Ошибка настроек. Добавить ?tl=ru и перезагрузить?",
+    "description": "Confirmation message if settings fail to load and defaulting to ru."
+  },
+  "consoleLogTlPresent": {
+    "message": "Параметр tl=$LANGUAGE$ уже присутствует в URL.",
+    "description": "Console log message when tl parameter already exists.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "ru"
+      }
+    }
+  },
+  "consoleLogTlAdded": {
+    "message": "URL обновлён до: $URL$",
+    "description": "Console log message after updating the URL.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://www.reddit.com/r/Example/?tl=en"
+      }
+    }
+  },
+  "lang_en_name": {
+    "message": "Английский",
+    "description": "Display name for English language in the dropdown."
+  },
+  "lang_es_name": {
+    "message": "Испанский",
+    "description": "Display name for Spanish language in the dropdown."
+  },
+  "lang_fr_name": {
+    "message": "Французский",
+    "description": "Display name for French language in the dropdown."
+  },
+  "lang_de_name": {
+    "message": "Немецкий",
+    "description": "Display name for German language in the dropdown."
+  },
+  "lang_it_name": {
+    "message": "Итальянский",
+    "description": "Display name for Italian language in the dropdown."
+  },
+  "lang_pt_name": {
+    "message": "Португальский",
+    "description": "Display name for Portuguese language in the dropdown."
+  },
+  "lang_ru_name": {
+    "message": "Русский",
+    "description": "Display name for Russian language in the dropdown."
+  },
+  "lang_zh_CN_name": {
+    "message": "Упрощённый китайский",
+    "description": "Display name for Chinese Simplified language in the dropdown."
+  },
+  "lang_ja_name": {
+    "message": "Японский",
+    "description": "Display name for Japanese language in the dropdown."
+  },
+  "lang_ko_name": {
+    "message": "Корейский",
+    "description": "Display name for Korean language in the dropdown."
+  }
+}

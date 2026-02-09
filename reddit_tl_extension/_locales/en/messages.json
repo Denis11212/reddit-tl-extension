@@ -1,0 +1,104 @@
+{
+  "extensionName": {
+    "message": "Reddit TL Language Selector",
+    "description": "The name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Adds a language parameter (tl) to Reddit URLs.",
+    "description": "The description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Reddit TL Settings",
+    "description": "Title for the options page."
+  },
+  "languageLabel": {
+    "message": "Select translation language (tl parameter):",
+    "description": "Label for the language selection dropdown."
+  },
+  "autoReloadLabel": {
+    "message": "Automatically reload the page",
+    "description": "Label for the auto-reload checkbox."
+  },
+  "saveButton": {
+    "message": "Save Settings",
+    "description": "Text for the save button."
+  },
+  "statusSaved": {
+    "message": "Settings saved.",
+    "description": "Status message after saving settings."
+  },
+  "confirmAddTl": {
+    "message": "Add ?tl=$LANGUAGE$ to the URL and reload the page?",
+    "description": "Confirmation message before reloading with new tl parameter.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "ru"
+      }
+    }
+  },
+  "confirmErrorDefault": {
+    "message": "Settings error. Add ?tl=ru and reload?",
+    "description": "Confirmation message if settings fail to load and defaulting to ru."
+  },
+  "consoleLogTlPresent": {
+    "message": "The tl=$LANGUAGE$ parameter is already present in the URL.",
+    "description": "Console log message when tl parameter already exists.",
+    "placeholders": {
+      "language": {
+        "content": "$1",
+        "example": "ru"
+      }
+    }
+  },
+  "consoleLogTlAdded": {
+    "message": "URL updated to: $URL$",
+    "description": "Console log message after updating the URL.",
+    "placeholders": {
+      "url": {
+        "content": "$1",
+        "example": "https://www.reddit.com/r/Example/?tl=en"
+      }
+    }
+  },
+  "lang_en_name": {
+    "message": "English",
+    "description": "Display name for English language in the dropdown."
+  },
+  "lang_es_name": {
+    "message": "Spanish",
+    "description": "Display name for Spanish language in the dropdown."
+  },
+  "lang_fr_name": {
+    "message": "French",
+    "description": "Display name for French language in the dropdown."
+  },
+  "lang_de_name": {
+    "message": "German",
+    "description": "Display name for German language in the dropdown."
+  },
+  "lang_it_name": {
+    "message": "Italian",
+    "description": "Display name for Italian language in the dropdown."
+  },
+  "lang_pt_name": {
+    "message": "Portuguese",
+    "description": "Display name for Portuguese language in the dropdown."
+  },
+  "lang_ru_name": {
+    "message": "Russian",
+    "description": "Display name for Russian language in the dropdown."
+  },
+  "lang_zh_CN_name": {
+    "message": "Chinese Simplified",
+    "description": "Display name for Chinese Simplified language in the dropdown."
+  },
+  "lang_ja_name": {
+    "message": "Japanese",
+    "description": "Display name for Japanese language in the dropdown."
+  },
+  "lang_ko_name": {
+    "message": "Korean",
+    "description": "Display name for Korean language in the dropdown."
+  }
+}
